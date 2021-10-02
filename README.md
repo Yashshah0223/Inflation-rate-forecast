@@ -5,3 +5,4 @@ What I'm currently working on - Business Forecasting
 - This forecast's outcome will be a point specific outcome. 
 - While forecasting we need to measure the accuracy of that forecast before we can use it, to do so we will be using MAPE.
 - The data that we will be using to forecast is referred from the data collected and curated by The World Bank organization. One can easily find the data at https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG 
+- Collaborators on this project - github.com/anushkau and github.com/aditya4274
