@@ -1,0 +1,11 @@
+# A few insights that would help others for inflation rate forecasting : 
+
+As many wise men say," Always learn from your mistakes " and so we have a few things to add for those who would like to forecast inflation rate for any country. 
+- For inflation rate one should never use a Yearly dataset if they are not taking into account the variables which play a significant role for formualtion inflation.
+If one uses a yearly dataset with no other variables than inflation rate, they will not be able to catch seasonality of the time series using decomp or stl. 
+Try to use monthly inflation dataset or weekly based on your preference .
+Identify the reasons or variables leading to changes in inflation rate and USE them in your dataset. Generally select a dataset composed of inflation rate, CPI (Given by BLS), Bank rates.
+The Federal Reserve uses in particular PCE price index, one can take it as a variable but then disregard CPI. 
+Secondly when forecasting an Inflation rate always divide your dataset ideally 80-20 into train-test set and use the best fit model to forecast. For this one needs VARIABLES. 
+It is not ideal to use past inflation rate to forecast following year's inflation rate. 
+As any good business analyst or forecaster will say, spend more time on your data and understand how it works to provide better decision making insights.
